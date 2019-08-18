@@ -1,0 +1,52 @@
+### How to hack Chrome://dino
+
+--------------------------------------------------------------
+
+*****How to make dino Inmortal*****
+F12 && Console
+
+*Make GameOver a var
+var original = Runner.prototype.gameOver
+
+*Make that variable empty
+Runner.prototype.gameOver = function(){}
+
+---------------------------------------------------------------
+
+*****How to change dino velocity*****
+F12 && Console
+
+*(x) is a variable, the more velocity you put... the faster it will move
+Runner.instance_.setSpeed(x)
+
+--------------------------------------------------------------
+
+*****How to make dino jump more******
+F12 && Console
+
+*(x) is a variable, the more jumpvelocity you put... the longer the jump will be 
+Runner.instance_.tRex.setJumpVelocity(x)
+
+--------------------------------------------------------------
+
+*****How to win points faster*****
+F12 && Console
+
+*This will make the score drive crazy... but you can modify the value putting a value after the "=" 
+Runner.instance_.msPerFrame=0.00001
+
+--------------------------------------------------------------
+
+*****Remove all obstacules*****
+F12 && Console 
+
+Runner.instance_.playingIntro = true 
+
+--------------------------------------------------------------
+
+*****Make dino move backwards*****
+F12 && Console
+
+Runner.instance_.setSpeed(-1)
+
+--------------------------------------------------------------
