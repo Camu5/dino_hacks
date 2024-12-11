@@ -1,0 +1,28 @@
+Para desbloquear un ordenador con contraseña olvidada/no conocida, podemos hacer uso de un software muy util: Hiren's Boot.
+
+Este software está diseñado para Troubleshooting de Windows en general, y posee diversas funcionalidades como escanear memoria, antivirus (pj rootkits, spywares), desbloquear contraseñas, crear usuarios, acceder a la memoria sin necesidad de loger, etc.
+
+### BYPASS CONTRASEÑA WINDOWS 10 ####
+
+1. DESCARGAR Hirens Boot Y HACER LIVE USB
+Se descarga de: https://www.hirensbootcd.org/
+(Incluyo yo el .iso de la versión más reciente de cuando creo este archivo). 
+
+Para hacerlo LiveBoot podemos usar Rufus o Etcher. 
+Si se usa Rufus, hay que asegurarnos que el esquema de partición sea MBR y no GPT. 
+
+2. REMOVER SECURE BOOT DEL DISPOSITIVO A ATACAR
+Hay que entrar al BIOS y desactivar el secureboot, si es necesario, encender el booting desde usb. 
+Este paso depende del modelo, marca, etc.
+
+3. BOOTEAR HIRENSBOOT
+Una vez booteado, hay que esperar a que cargue. La interfaz es muy simialr a Windows.
+Una vez estemos en el escritorio, nos dirigimos a la carpeta de Utilities -> Security -> Password
+
+Ejecutamos WindowsLoginUnlocker
+
+4. BYPASS
+Esperamos a que analice los usuarios del equipo. 
+Una vez ya los analizó, escogemos el usuario objetivo y usamos Reset\Unlock (aunque hay otras opciones).
+
+¡LISTO!
